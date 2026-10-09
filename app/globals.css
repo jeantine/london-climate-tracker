@@ -1,26 +1,95 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  color-scheme: light dark;
+
+  --background: #faf9f7;
+  --foreground: #16181b;
+  --muted: #5b6068;
+  --surface: #ffffff;
+  --line: #e6e3dd;
+  --tint: #f1efea;
+  --accent: #0f6e66;
+
+  /* Level colours: cool, then 1 (calm) to 5 (severe). Each badge has its own text colour. */
+  --tier-cool: #2f6db5;
+  --tier-cool-ink: #ffffff;
+  --tier-1: #1b7f45;
+  --tier-1-ink: #ffffff;
+  --tier-2: #f5d63d;
+  --tier-2-ink: #16181b;
+  --tier-3: #ea6a0a;
+  --tier-3-ink: #16181b;
+  --tier-4: #c01c28;
+  --tier-4-ink: #ffffff;
+  --tier-5: #5b21b6;
+  --tier-5-ink: #ffffff;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0b0d0e;
+    --foreground: #ececea;
+    --muted: #9aa0a6;
+    --surface: #141719;
+    --line: #262a2d;
+    --tint: #1c2023;
+    --accent: #5fd4c4;
+
+    --tier-cool: #5b9bdc;
+    --tier-cool-ink: #0b0d0e;
+    --tier-1: #3fb870;
+    --tier-1-ink: #0b0d0e;
+    --tier-2: #f5d63d;
+    --tier-2-ink: #0b0d0e;
+    --tier-3: #f58a3a;
+    --tier-3-ink: #0b0d0e;
+    --tier-4: #f0616a;
+    --tier-4-ink: #0b0d0e;
+    --tier-5: #a98bf5;
+    --tier-5-ink: #0b0d0e;
+  }
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-surface: var(--surface);
+  --color-line: var(--line);
+  --color-tint: var(--tint);
+  --color-accent: var(--accent);
+
+  --color-tier-cool: var(--tier-cool);
+  --color-tier-cool-ink: var(--tier-cool-ink);
+  --color-tier-1: var(--tier-1);
+  --color-tier-1-ink: var(--tier-1-ink);
+  --color-tier-2: var(--tier-2);
+  --color-tier-2-ink: var(--tier-2-ink);
+  --color-tier-3: var(--tier-3);
+  --color-tier-3-ink: var(--tier-3-ink);
+  --color-tier-4: var(--tier-4);
+  --color-tier-4-ink: var(--tier-4-ink);
+  --color-tier-5: var(--tier-5);
+  --color-tier-5-ink: var(--tier-5-ink);
+
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--background);
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
 }

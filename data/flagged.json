@@ -1,0 +1,178 @@
+[
+  {
+    "id": "london-water-7",
+    "city": "London",
+    "category": "Water and flooding",
+    "title": "Free water-saving devices from Thames Water",
+    "summary": "Thames Water has offered free water-saving products such as shower heads and tap aerators to customers.",
+    "details": [
+      "Not confirmed: details could not be checked against the official page"
+    ],
+    "when": [
+      "any"
+    ],
+    "sources": [
+      {
+        "title": "Thames Water: Free water-saving products",
+        "url": "https://www.thameswater.co.uk/help/water-and-waste-help/water-saving/free-water-saving-products"
+      }
+    ],
+    "verification": {
+      "status": "flagged",
+      "lastChecked": "2026-10-09",
+      "method": "schema+spot+freshness",
+      "flag_reason": "Spot check failed: the Thames Water water-saving pages could not be opened on three attempts, and the hosepipe ban page lists no free products."
+    }
+  },
+  {
+    "id": "london-energy-5",
+    "city": "London",
+    "category": "Energy at home",
+    "title": "Great British Insulation Scheme",
+    "summary": "Supplier-funded insulation for homes in council tax bands A to D or on certain benefits.",
+    "details": [
+      "Scheme ran April 2023 to 31 March 2026"
+    ],
+    "when": [
+      "any"
+    ],
+    "sources": [
+      {
+        "title": "Ofgem: Great British Insulation Scheme",
+        "url": "https://www.ofgem.gov.uk/environmental-and-social-schemes/great-british-insulation-scheme"
+      }
+    ],
+    "verification": {
+      "status": "flagged",
+      "lastChecked": "2026-10-09",
+      "method": "schema+spot+freshness",
+      "flag_reason": "Freshness check failed: Ofgem says the scheme ended on 31 March 2026 and is closed to new installations."
+    }
+  },
+  {
+    "id": "london-energy-6",
+    "city": "London",
+    "category": "Energy at home",
+    "title": "Warmer Homes London: free home improvements up to £4,000",
+    "summary": "Mayor's scheme offering free heating and insulation upgrades to London homeowners on benefits.",
+    "details": [
+      "Up to £4,000 per household for homeowners on qualifying benefits",
+      "First come, first served"
+    ],
+    "when": [
+      "any"
+    ],
+    "sources": [
+      {
+        "title": "Mayor of London: Warmer Homes",
+        "url": "https://www.london.gov.uk/what-we-do/housing-and-land/improving-quality/warmer-homes"
+      }
+    ],
+    "verification": {
+      "status": "flagged",
+      "lastChecked": "2026-10-09",
+      "method": "schema+spot+freshness",
+      "flag_reason": "Freshness check failed: the page describes a £2.5 million first-come scheme with no application route or open date, and the Mayor's July 2026 funding goes to councils and housing associations instead."
+    }
+  },
+  {
+    "id": "london-energy-7",
+    "city": "London",
+    "category": "Energy at home",
+    "title": "Solar Together London group-buy for solar panels",
+    "summary": "Group-buying scheme for discounted solar panels and batteries, run by councils with the Mayor of London.",
+    "details": [
+      "Registration dates on the page are 7 February to 15 March 2022"
+    ],
+    "when": [
+      "any"
+    ],
+    "sources": [
+      {
+        "title": "RBKC: Solar Together London",
+        "url": "https://www.rbkc.gov.uk/environment/climate-change/solar-together-london"
+      }
+    ],
+    "verification": {
+      "status": "flagged",
+      "lastChecked": "2026-10-09",
+      "method": "schema+spot+freshness",
+      "flag_reason": "Freshness check failed: every date on the official page is from the 2022 round, and no current London registration round could be confirmed."
+    }
+  },
+  {
+    "id": "london-transport-5",
+    "city": "London",
+    "category": "Getting around",
+    "title": "ULEZ car scrappage grant",
+    "summary": "TfL grant for scrapping a non-compliant car or motorcycle, with cash or bus and tram passes.",
+    "details": [
+      "Was up to £2,000 for a car"
+    ],
+    "when": [
+      "any"
+    ],
+    "sources": [
+      {
+        "title": "TfL: ULEZ car and motorcycle scrappage scheme",
+        "url": "https://tfl.gov.uk/car-motorcycle-scrappage"
+      }
+    ],
+    "verification": {
+      "status": "flagged",
+      "lastChecked": "2026-10-09",
+      "method": "schema+spot+freshness",
+      "flag_reason": "Freshness check failed: TfL says it is no longer accepting new applications."
+    }
+  },
+  {
+    "id": "london-transport-6",
+    "city": "London",
+    "category": "Getting around",
+    "title": "Free Santander Cycles on Sundays",
+    "summary": "Free Day Pass promo codes for unlimited 60-minute rides on Sundays.",
+    "details": [
+      "Codes covered 5, 12, 19 and 26 July 2026"
+    ],
+    "when": [
+      "any"
+    ],
+    "sources": [
+      {
+        "title": "TfL press: Cycle Sundays",
+        "url": "https://tfl-newsroom.prgloo.com/news/tfl-brings-back-popular-cycle-sundays-with-unlimited-free-60-minute-santander-cycle-rides-every-sunday-in-july"
+      }
+    ],
+    "verification": {
+      "status": "flagged",
+      "lastChecked": "2026-10-09",
+      "method": "schema+spot+freshness",
+      "flag_reason": "Freshness check failed: the offer only ran on Sundays in July 2026 and has ended."
+    }
+  },
+  {
+    "id": "london-transport-7",
+    "city": "London",
+    "category": "Getting around",
+    "title": "Half-price Santander Cycles monthly membership",
+    "summary": "Car Free Day offer of a £10 monthly membership for new members.",
+    "details": [
+      "Code CFD25, valid 17 to 23 September 2025"
+    ],
+    "when": [
+      "any"
+    ],
+    "sources": [
+      {
+        "title": "TfL press: Half-price monthly memberships for World Car Free Day",
+        "url": "https://tfl-newsroom.prgloo.com/news/santander-cycles-offer-half-price-monthly-memberships-to-mark-world-car-free-day"
+      }
+    ],
+    "verification": {
+      "status": "flagged",
+      "lastChecked": "2026-10-09",
+      "method": "schema+spot+freshness",
+      "flag_reason": "Freshness check failed: the offer ended on 23 September 2025 and no 2026 equivalent was found."
+    }
+  }
+]
